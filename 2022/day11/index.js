@@ -69,7 +69,8 @@ class Monkey {
 //     }
 //   }
 
-//   monkeys.forEach((monkey, i) => console.log(i, monkey.count));
+// const counts = monkeys.map((monkey) => monkey.count).sort((a, b) => b - a);
+// console.log(counts[0] * counts[1]);
 // };
 
 // part1();
